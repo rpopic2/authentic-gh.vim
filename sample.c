@@ -1,4 +1,4 @@
-// comments
+// TODO
 /*
  * multi-line
  * comments
@@ -16,6 +16,8 @@ struct some_struct {
 typedef u_int32_t u32;
 
 int main() {
+    const int TEST = 0;
+    int j = TEST;
     struct some_struct p = {
         0, NULL
     };
@@ -39,3 +41,4 @@ print:
     }
 #endif
 }
+

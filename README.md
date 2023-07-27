@@ -6,16 +6,17 @@ Authentic gh theme experience for vim
 
 # Installation
 
-1. Install this script to your colorscheme folder. Alternatively, you can just `source` the theme file.
+1. Install this script to your colorscheme folder.
 
-If you are using neovim, you can download the gh-light.vim file and run:
+Alternatively, you can just `source` the theme file, or use your favourite plugin manager.
 
-```bash
-mkdir -p ~/.config/nvim/colors
-cp <the color theme> ~/.config/nvim/colors
-```
+2. nvim-treesitter and other plugins
 
-2. Set up your terminal colour as following:
+For better experience, install [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter).
+
+If you use [coc.nvim](https://github.com/neoclide/coc.nvim), highlight is supported out of box for coc.nvim.
+
+3. Set up your terminal colour as follows:
 
 ```
 foreground #24292f
@@ -53,12 +54,6 @@ color7 #6e7781
 color15 #8c959f
 ```
 
-3. nvim-treesitter and other plugins
-
-For better experience, install [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter).
-
-If you use [coc.nvim](https://github.com/neoclide/coc.nvim), this theme slightly tweaks for you.
-
-# Notes
+3.# Notes
 
 This theme is currently based on cterm mode. Note that gui colours are not supported.
