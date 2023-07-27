@@ -10,13 +10,15 @@ Authentic gh theme experience for vim
 
 Alternatively, you can just `source` the theme file, or use your favourite plugin manager.
 
-2. nvim-treesitter and other plugins
+2. To your init.vim or .vimrc, add `colorscheme gh-light`.
+
+3. nvim-treesitter and other plugins
 
 For better experience, install [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter).
 
 If you use [coc.nvim](https://github.com/neoclide/coc.nvim), highlight is supported out of box for coc.nvim.
 
-3. Set up your terminal colour as follows:
+4. Set up your terminal colour as follows:
 
 ```
 foreground #24292f
@@ -54,6 +56,6 @@ color7 #6e7781
 color15 #8c959f
 ```
 
-3.# Notes
+# Notes
 
 This theme is currently based on cterm mode. Note that gui colours are not supported.
