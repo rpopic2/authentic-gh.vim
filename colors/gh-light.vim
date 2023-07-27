@@ -34,7 +34,7 @@ hi MatchParen ctermbg=Yellow
 
 if exists(":TSInstall")
     hi @function ctermfg=DarkMagenta
-    hi @punctuation.bracket ctermfg=Black
+    hi @punctuation ctermfg=Black
     hi @type.qualifier ctermfg=DarkRed
 endif
 
