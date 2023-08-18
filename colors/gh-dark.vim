@@ -40,5 +40,6 @@ endif
 
 if exists(":CocInstall")
     hi CocInlayHint ctermfg=Grey
+    hi CocFloating ctermfg=White
 endif
 
