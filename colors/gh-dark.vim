@@ -21,7 +21,7 @@ hi Identifier ctermfg=White cterm=None
 hi Special ctermfg=Blue
 
 
-hi Search ctermbg=DarkYellow
+hi Search ctermbg=DarkYellow ctermfg=Black
     hi Todo ctermbg=LightYellow
 
 hi SignColumn ctermbg=None
@@ -29,7 +29,7 @@ hi SignColumn ctermbg=None
 hi Pmenu ctermbg=None
 
 hi Visual ctermbg=Yellow
-hi MatchParen ctermbg=Yellow
+hi MatchParen ctermbg=Black
 
 
 if exists(":TSInstall")
