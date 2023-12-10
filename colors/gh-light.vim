@@ -38,6 +38,9 @@ if exists(":TSInstall")
     hi @type.qualifier ctermfg=DarkRed
 endif
 
+hi @lsp.type.type ctermfg=Black
+hi @lsp.type.namespace ctermfg=Black
+
 if exists(":CocInstall")
     hi CocInlayHint ctermfg=Grey
 endif
