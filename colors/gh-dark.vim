@@ -27,6 +27,7 @@ hi Search ctermbg=DarkYellow ctermfg=Black
 hi SignColumn ctermbg=None
     hi LineNr ctermfg=DarkGrey
 hi Pmenu ctermbg=None
+hi NormalFloat ctermbg=DarkGrey ctermfg=LightGrey
 
 hi Visual ctermbg=Yellow
 hi MatchParen ctermbg=Black
@@ -39,7 +40,7 @@ if exists(":TSInstall")
 endif
 
 hi @lsp.type.type ctermfg=Black
-hi @lsp.type.class ctermfg=Black
+hi @lsp.type.class ctermfg=White
 hi @lsp.type.namespace ctermfg=Black
 hi @lsp.type.macro ctermfg=Blue
 
