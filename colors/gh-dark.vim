@@ -41,7 +41,7 @@ endif
 
 hi @lsp.type.type ctermfg=Black
 hi @lsp.type.class ctermfg=White
-hi @lsp.type.namespace ctermfg=Black
+hi @lsp.type.namespace ctermfg=White
 hi @lsp.type.macro ctermfg=Blue
 
 if exists(":CocInstall")
