@@ -23,14 +23,15 @@ hi Special ctermfg=Blue
 hi TabLine ctermbg=White
 
 hi Search ctermbg=DarkYellow ctermfg=Black
+hi CurSearch ctermbg=Yellow ctermfg=Black
 hi Visual ctermbg=DarkYellow ctermfg=Black
-    hi Todo ctermbg=LightYellow
     hi Todo ctermbg=LightYellow
 
 hi SignColumn ctermbg=None
     hi LineNr ctermfg=DarkGrey
 hi Pmenu ctermbg=None
 hi NormalFloat ctermbg=DarkGrey ctermfg=LightGrey
+hi StatusLineNC ctermbg=White
 
 hi Visual ctermbg=Yellow
 hi MatchParen ctermbg=Black cterm=None
