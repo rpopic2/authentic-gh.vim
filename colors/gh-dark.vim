@@ -23,7 +23,7 @@ hi Special ctermfg=Blue
 hi TabLine ctermbg=White
 
 hi Search ctermbg=DarkYellow ctermfg=Black
-hi Visual ctermbg=DarkYellow
+hi Visual ctermbg=DarkYellow ctermfg=Black
     hi Todo ctermbg=LightYellow
     hi Todo ctermbg=LightYellow
 
@@ -43,6 +43,7 @@ if exists(":TSInstall")
 endif
 
 hi @lsp.type.type ctermfg=Black
+hi @lsp.type.keyword ctermfg=Black
 hi @lsp.type.class ctermfg=White
 hi @lsp.type.namespace ctermfg=White
 hi @lsp.type.macro ctermfg=Blue

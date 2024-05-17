@@ -22,7 +22,7 @@ hi Special ctermfg=Blue
 
 
 hi Search ctermbg=LightYellow
-hi Visual ctermbg=LightYellow
+hi Visual ctermbg=LightYellow ctermfg=Black
     hi Todo ctermbg=LightYellow
 hi MatchParen ctermbg=LightYellow cterm=None
 
