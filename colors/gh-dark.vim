@@ -20,6 +20,7 @@ hi Identifier ctermfg=White cterm=None
 
 hi Special ctermfg=Blue
 
+hi TabLine ctermbg=White
 
 hi Search ctermbg=DarkYellow ctermfg=Black
     hi Todo ctermbg=LightYellow

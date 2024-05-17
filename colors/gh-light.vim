@@ -31,6 +31,7 @@ hi Pmenu ctermbg=None
 hi Visual ctermbg=Yellow
 hi MatchParen ctermbg=Yellow
 
+hi TabLine ctermbg=White
 
 if exists(":TSInstall")
     hi @function ctermfg=DarkMagenta
