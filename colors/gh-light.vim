@@ -24,13 +24,11 @@ hi Special ctermfg=Blue
 hi Search ctermbg=LightYellow
 hi Visual ctermbg=LightYellow
     hi Todo ctermbg=LightYellow
+hi MatchParen ctermbg=LightYellow cterm=None
 
 hi SignColumn ctermbg=None
     hi LineNr ctermfg=DarkGrey
 hi Pmenu ctermbg=None
-
-hi Visual ctermbg=Yellow
-hi MatchParen ctermbg=Yellow
 
 hi TabLine ctermbg=White
 

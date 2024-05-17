@@ -33,7 +33,7 @@ hi Pmenu ctermbg=None
 hi NormalFloat ctermbg=DarkGrey ctermfg=LightGrey
 
 hi Visual ctermbg=Yellow
-hi MatchParen ctermbg=Black
+hi MatchParen ctermbg=Black cterm=None
 
 
 if exists(":TSInstall")
