@@ -11,7 +11,7 @@ hi Type ctermfg=Grey
     hi Structure ctermfg=DarkRed
     hi StorageClass ctermfg=DarkRed
 
-hi Statement ctermfg=DarkRed
+hi Statement ctermfg=DarkRed cterm=None
     hi Label ctermfg=DarkGreen
     hi Operator ctermfg=Blue
 
@@ -23,6 +23,8 @@ hi Special ctermfg=Blue
 hi TabLine ctermbg=White
 
 hi Search ctermbg=DarkYellow ctermfg=Black
+hi Visual ctermbg=DarkYellow
+    hi Todo ctermbg=LightYellow
     hi Todo ctermbg=LightYellow
 
 hi SignColumn ctermbg=None

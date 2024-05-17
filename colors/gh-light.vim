@@ -11,7 +11,7 @@ hi Type ctermfg=Black
     hi Structure ctermfg=DarkRed
     hi StorageClass ctermfg=DarkRed
 
-hi Statement ctermfg=DarkRed
+hi Statement ctermfg=DarkRed cterm=None
     hi Label ctermfg=DarkGreen
     hi Operator ctermfg=Blue
 
@@ -21,7 +21,8 @@ hi Identifier ctermfg=Black
 hi Special ctermfg=Blue
 
 
-hi Search ctermbg=DarkYellow
+hi Search ctermbg=LightYellow
+hi Visual ctermbg=LightYellow
     hi Todo ctermbg=LightYellow
 
 hi SignColumn ctermbg=None
