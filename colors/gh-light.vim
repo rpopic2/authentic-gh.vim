@@ -9,7 +9,7 @@ hi Constant ctermfg=Blue
 
 hi Type ctermfg=Black
     hi Structure ctermfg=DarkRed
-    hi StorageClass ctermfg=DarkRed
+    hi StorageClass ctermfg=Black
 
 hi Statement ctermfg=DarkRed cterm=None
     hi Label ctermfg=DarkGreen
