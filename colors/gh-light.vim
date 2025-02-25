@@ -19,7 +19,6 @@ hi Identifier ctermfg=Black
     hi Function ctermfg=DarkMagenta
 
 hi Special ctermfg=Blue
-
 hi Search ctermbg=LightYellow ctermfg=Black
 hi CurSearch ctermbg=Yellow ctermfg=Black
 hi Visual ctermbg=LightYellow ctermfg=Black
@@ -29,8 +28,15 @@ hi MatchParen ctermbg=LightYellow cterm=None
 hi SignColumn ctermbg=None
     hi LineNr ctermfg=DarkGrey
 hi Pmenu ctermbg=None
-
 hi TabLine ctermbg=White
+
+hi diffFile ctermfg=Grey
+hi diffOldFile ctermfg=Darkgrey cterm=bold,reverse
+hi diffNewFile ctermfg=Darkgrey cterm=bold,reverse
+hi diffIndexLine ctermfg=Grey
+hi diffBDiffer ctermfg=Grey
+hi diffLine ctermfg=Yellow
+hi diffSubname ctermfg=Yellow
 
 if exists(":TSInstall")
     hi @function ctermfg=DarkMagenta
