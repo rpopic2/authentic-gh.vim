@@ -20,7 +20,7 @@ hi Identifier ctermfg=Black
 
 hi Special ctermfg=Blue
 hi Search ctermbg=LightYellow ctermfg=Black
-hi CurSearch ctermbg=Yellow ctermfg=Black
+hi CurSearch ctermbg=LightYellow ctermfg=Black cterm=reverse
 hi Visual ctermbg=LightYellow ctermfg=Black
     hi Todo ctermbg=LightYellow
 hi MatchParen ctermbg=None ctermfg=DarkGrey cterm=None
@@ -29,6 +29,7 @@ hi SignColumn ctermbg=None
     hi LineNr ctermfg=DarkGrey
 hi Pmenu ctermbg=None
 hi TabLine ctermbg=White
+hi StatusLineNC ctermbg=Black ctermfg=Grey cterm=None
 
 hi diffFile ctermfg=Grey
 hi diffOldFile ctermfg=Darkgrey cterm=bold,reverse
