@@ -7,7 +7,7 @@ hi PreProc ctermfg=DarkRed
 hi Constant ctermfg=Blue
     hi String ctermfg=DarkBlue
 
-hi Type ctermfg=Black
+hi Type ctermfg=Grey
     hi Structure ctermfg=DarkRed
     hi StorageClass ctermfg=Black
 
@@ -23,7 +23,7 @@ hi Search ctermbg=LightYellow ctermfg=Black
 hi CurSearch ctermbg=Yellow ctermfg=Black
 hi Visual ctermbg=LightYellow ctermfg=Black
     hi Todo ctermbg=LightYellow
-hi MatchParen ctermbg=LightYellow cterm=None
+hi MatchParen ctermbg=None ctermfg=DarkGrey cterm=None
 
 hi SignColumn ctermbg=None
     hi LineNr ctermfg=DarkGrey
