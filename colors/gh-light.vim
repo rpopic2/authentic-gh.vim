@@ -7,7 +7,7 @@ hi PreProc ctermfg=DarkRed
 hi Constant ctermfg=Blue
     hi String ctermfg=DarkBlue
 
-hi Type ctermfg=Grey
+hi Type ctermfg=Black
     hi Structure ctermfg=DarkRed
     hi StorageClass ctermfg=Black
 
