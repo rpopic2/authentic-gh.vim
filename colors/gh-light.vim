@@ -40,6 +40,8 @@ hi diffBDiffer ctermfg=Grey
 hi diffLine ctermfg=Yellow
 hi diffSubname ctermfg=Yellow
 
+hi MarkdownError ctermfg=Red ctermbg=None
+
 if exists(":TSInstall")
     hi @function ctermfg=DarkMagenta
     hi @punctuation ctermfg=Black
